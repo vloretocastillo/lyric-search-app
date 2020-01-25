@@ -3,10 +3,11 @@ import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import NavBar from '../NavBarComponent/NavBar'
 import Index from '../IndexComponent/Index'
-
+import { Provider } from '../context'
 
 function App() {
   return (
+    <Provider>
     <Router>
     <div className="App">
       <NavBar />
@@ -17,6 +18,7 @@ function App() {
       </div>
     </div>
     </Router>
+    </Provider>
   );
 }
 
