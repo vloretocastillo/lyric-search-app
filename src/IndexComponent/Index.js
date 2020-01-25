@@ -1,10 +1,12 @@
 import React from 'react'
+import Tracks from '../TracksComponent/Tracks'
+
 
 const Index = () => {
 
     return (
         <div>
-            index
+            <Tracks/>
         </div>
     )
 
