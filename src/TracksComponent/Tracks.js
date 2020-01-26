@@ -1,5 +1,7 @@
 import React from 'react';
 import { Consumer } from '../context';
+import Loader from '../LoaderComponent/Loader';
+
 
 class Tracks extends React.Component {
 
@@ -9,7 +11,17 @@ class Tracks extends React.Component {
             <Consumer>
             { (value) => {
                 console.log(value)
-                return <h1>hi</h1>
+                let UIComponent
+                if (value.track_list.length == 0) {
+                    UIComponent = <Loader />
+                } else {
+                    UIComponent = <div  >hi</div>
+                }
+                
+                
+                return (
+                    UIComponent
+                )
             } }
             </Consumer>
         )
