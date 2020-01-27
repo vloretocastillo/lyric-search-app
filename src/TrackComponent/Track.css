@@ -8,3 +8,10 @@
     position: relative;
     top: 2px;
 }
+
+.trackcomponent-button {
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 90%;
+    display: block;
+}

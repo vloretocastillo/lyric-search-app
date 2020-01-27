@@ -25,7 +25,7 @@ class Tracks extends React.Component {
                         let { music_genre_list } = primary_genres
                         let genres = music_genre_list.map(el => el.music_genre.music_genre_name )
                         console.log(track, genres)
-                        return <Track key={track_id} title={ track_name } album={ album_name } artist={ artist_name } genres={ genres }/>
+                        return <Track key={track_id} id={track_id} title={ track_name } album={ album_name } artist={ artist_name } genres={ genres }/>
                     })
                     {/* UIComponent = <div  >hi</div> */}
                 }
