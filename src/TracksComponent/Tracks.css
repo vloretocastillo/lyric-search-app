@@ -1,0 +1,9 @@
+.trackscomponent-container {
+    margin: 5% 0;
+    min-height: 90vh;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+}
