@@ -1,5 +1,7 @@
 .trackcomponent-item {
     width: 45%;
+    align-self: stretch;
+
 }
 
 .icons {
