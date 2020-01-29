@@ -1,4 +1,8 @@
 import React from 'react';
+import Loader from '../LoaderComponent/Loader';
+import './Lyrics.css'
+
+
 // import './App.css';
 
 class Lyrics extends React.Component {
@@ -31,16 +35,23 @@ class Lyrics extends React.Component {
     componentDidMount() {
         this.getLyricsInfo()
         this.getTrackInfo()
-
-        console.log(this.state.lyrics)
-        console.log(this.state.track)
-
     }
+
     render () {
+
+        const { track, lyrics } = this.state
+        let UIComponent
+        if( track === undefined || lyrics === undefined || Object.keys(track).length === 0 || Object.keys(lyrics).length === 0) {
+            UIComponent = <Loader />
+        }
+        else {
+            UIComponent =  <h1>Loaded</h1>
+        }
+
         return (
-            <h1>
-                lycs
-            </h1>
+            <div className='lyricscomponent-container'>
+                {UIComponent}
+            </div>
         )
     }
 }
