@@ -15,7 +15,11 @@ class Search extends React.Component {
         return (
             <Consumer>
             { (value) => {
-                return <h1>Search me</h1>
+                return (
+                    <div className='input-wrapper'>
+                        <input type="text" id="input" className="input-track-title" placeholder="Search By Track Title" />
+                    </div>
+                )
             }}
             </Consumer>
         )
