@@ -15,7 +15,7 @@ function App() {
       <div className='container'>
         <Switch>
           <Route exact path='/' component={Index} />
-          <Route path='/lyrics/tracks' component={Lyrics} />
+          <Route exact path='/lyrics/track/:id' component={Lyrics} />
         </Switch>
       </div>
     </div>
