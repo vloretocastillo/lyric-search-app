@@ -5,5 +5,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    /* border: 1px solid red; */
+}
+
+.trackscomponent-container h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
 }

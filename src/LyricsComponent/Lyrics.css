@@ -6,3 +6,8 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
+.lyriccomponent-item {
+    width: 80%;
+    margin: 5% 10%;
+}
