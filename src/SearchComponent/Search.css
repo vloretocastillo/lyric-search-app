@@ -1,20 +1,21 @@
 #input {
     border: none;
-    width: 80%;
+    width: 75%;
     border-radius: 10px;
     text-align: center;
     /* margin: 0 auto; */
-    padding: 1rem;
-    box-shadow: 0.1rem 0.4rem 1.4rem rgb(152, 155, 155);
+    padding: 0.5rem;
+    /* box-shadow: 0.1rem 0.4rem 1.4rem rgb(178, 179, 179); */
+    background-color: #7c4dff;
 
 }
 
 #input:focus {
-    box-shadow: 0.1rem 0.8rem 1.4rem rgb(104, 105, 105);
+    box-shadow: 0.1rem 0.8rem 1.2rem rgb(179, 180, 180);
 }
 
 .input-wrapper {
         text-align: center;
-        margin-top: 5%;
+        margin-top: 6%;
     
 }
