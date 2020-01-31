@@ -15,8 +15,10 @@ class Search extends React.Component {
         this.setState({ title: e.target.value})
     }
 
-    handleSumbmit(e) {
+    handleSumbmit(e, dispatch) {
         e.preventDefault();
+        console.log(dispatch)
+
         let url = `https://cors-anywhere.herokuapp.com/http://api.musixmatch.com/ws/1.1/track.search?q_track=${ this.state.title }&apikey=${process.env.REACT_APP_MM_KEY}`
         fetch(url)
             .then( res => res.json() )
@@ -31,7 +33,7 @@ class Search extends React.Component {
             { (value) => {
                 return (
                     <div className='input-wrapper'>
-                        <form action="" onSubmit={ (e)=> this.handleSumbmit(e) }>
+                        <form action="" onSubmit={ (e)=> this.handleSumbmit(e, value.dispatch) }>
                         <input 
                             type="text" 
                             id="input" 
