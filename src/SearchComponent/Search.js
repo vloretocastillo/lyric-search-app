@@ -17,12 +17,18 @@ class Search extends React.Component {
 
     handleSumbmit(e, dispatch) {
         e.preventDefault();
-        console.log(dispatch)
 
         let url = `https://cors-anywhere.herokuapp.com/http://api.musixmatch.com/ws/1.1/track.search?q_track=${ this.state.title }&apikey=${process.env.REACT_APP_MM_KEY}`
         fetch(url)
             .then( res => res.json() )
-            .then( data => console.log(data))
+            .then( data => {
+                dispatch({
+                    type: 'SEARCH_TRACKS',
+                    payload: data.message.body.track_list
+                })
+
+                this.setState({title : ''})
+            })
             .catch(err => console.log(err))
     }
 
