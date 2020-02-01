@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './Search.css';
 import { Consumer } from '../context';
 
@@ -26,7 +25,6 @@ class Search extends React.Component {
                     type: 'SEARCH_TRACKS',
                     payload: data.message.body.track_list
                 })
-
                 this.setState({title : ''})
             })
             .catch(err => console.log(err))
