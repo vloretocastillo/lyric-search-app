@@ -9,6 +9,12 @@ const reducer = (state, action) => {
                 track_list : action.payload,
                 heading: 'Search Result'
             }
+        case 'RESET':
+            return {
+                ...state,
+                track_list : action.payload,
+                heading: 'Top 10 tracks'
+            }
 
         default:
             return state
