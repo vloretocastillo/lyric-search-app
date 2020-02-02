@@ -15,7 +15,10 @@ function App() {
       <div className='container'>
         <Switch>
           <Route exact path='/' component={Index} />
+          <Route exact path='/lyric-search-app/' component={Index} />
+
           <Route exact path='/lyrics/track/:id' component={Lyrics} />
+
         </Switch>
       </div>
     </div>
