@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/lyric-search-app/./static/css/main.2c3221bd.chunk.css",
+    "main.js": "/lyric-search-app/./static/js/main.57be000c.chunk.js",
+    "main.js.map": "/lyric-search-app/./static/js/main.57be000c.chunk.js.map",
+    "runtime-main.js": "/lyric-search-app/./static/js/runtime-main.22efbf60.js",
+    "runtime-main.js.map": "/lyric-search-app/./static/js/runtime-main.22efbf60.js.map",
+    "static/js/2.f478b65b.chunk.js": "/lyric-search-app/./static/js/2.f478b65b.chunk.js",
+    "static/js/2.f478b65b.chunk.js.map": "/lyric-search-app/./static/js/2.f478b65b.chunk.js.map",
+    "index.html": "/lyric-search-app/./index.html",
+    "precache-manifest.d9554bf180b8e88387e7d5c3fb640790.js": "/lyric-search-app/./precache-manifest.d9554bf180b8e88387e7d5c3fb640790.js",
+    "service-worker.js": "/lyric-search-app/./service-worker.js",
+    "static/css/main.2c3221bd.chunk.css.map": "/lyric-search-app/./static/css/main.2c3221bd.chunk.css.map",
+    "static/js/2.f478b65b.chunk.js.LICENSE": "/lyric-search-app/./static/js/2.f478b65b.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.22efbf60.js",
+    "static/js/2.f478b65b.chunk.js",
+    "static/css/main.2c3221bd.chunk.css",
+    "static/js/main.57be000c.chunk.js"
+  ]
+}
