@@ -1,8 +1,9 @@
 {
   "name": "lyric-search-app",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://vloretocastillo.github.io/lyric-search-app/.",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://vloretocastillo.github.io/lyric-search-app/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
