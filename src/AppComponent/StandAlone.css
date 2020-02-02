@@ -1,0 +1,17 @@
+.standalone-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.standalone-button {
+    margin: 0 auto;
+    margin-top: 5%;
+    /* width: 80%; */
+    display: block;
+    color: white;
+    /* padding: 10%; */
+    height: 4rem;
+    
+}

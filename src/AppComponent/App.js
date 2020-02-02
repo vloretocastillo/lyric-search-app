@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import NavBar from '../NavBarComponent/NavBar'
 import Index from '../IndexComponent/Index'
 import Lyrics from '../LyricsComponent/Lyrics'
+import StandAlone from './StandAlone'
+
 import { Provider } from '../context'
 
 function App() {
@@ -15,7 +17,7 @@ function App() {
       <div className='container'>
         <Switch>
           <Route exact path='/' component={Index} />
-          {/* <Route  path='/lyric-search-app' component={Index} /> */}
+          <Route path='/lyric-search-app' component={StandAlone} />
           <Route exact path='/lyrics/track/:id' component={Lyrics} />
 
         </Switch>
