@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/lyric-search-app/static/css/main.2c3221bd.chunk.css",
-    "main.js": "/lyric-search-app/static/js/main.708b8815.chunk.js",
-    "main.js.map": "/lyric-search-app/static/js/main.708b8815.chunk.js.map",
+    "main.js": "/lyric-search-app/static/js/main.a19164bf.chunk.js",
+    "main.js.map": "/lyric-search-app/static/js/main.a19164bf.chunk.js.map",
     "runtime-main.js": "/lyric-search-app/static/js/runtime-main.90c5a652.js",
     "runtime-main.js.map": "/lyric-search-app/static/js/runtime-main.90c5a652.js.map",
     "static/js/2.f478b65b.chunk.js": "/lyric-search-app/static/js/2.f478b65b.chunk.js",
     "static/js/2.f478b65b.chunk.js.map": "/lyric-search-app/static/js/2.f478b65b.chunk.js.map",
     "index.html": "/lyric-search-app/index.html",
-    "precache-manifest.a2eca74fe54f168895ae0c83bce8e2d3.js": "/lyric-search-app/precache-manifest.a2eca74fe54f168895ae0c83bce8e2d3.js",
+    "precache-manifest.511c7e500d0a330c3cfb03abb4dcb30b.js": "/lyric-search-app/precache-manifest.511c7e500d0a330c3cfb03abb4dcb30b.js",
     "service-worker.js": "/lyric-search-app/service-worker.js",
     "static/css/main.2c3221bd.chunk.css.map": "/lyric-search-app/static/css/main.2c3221bd.chunk.css.map",
     "static/js/2.f478b65b.chunk.js.LICENSE": "/lyric-search-app/static/js/2.f478b65b.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.90c5a652.js",
     "static/js/2.f478b65b.chunk.js",
     "static/css/main.2c3221bd.chunk.css",
-    "static/js/main.708b8815.chunk.js"
+    "static/js/main.a19164bf.chunk.js"
   ]
 }
